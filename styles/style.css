@@ -1,0 +1,30 @@
+body {
+	margin-top: 20vh; /*shifts down the content by 20 vertical pixels*/
+	text-align: center; /*makes everything on the page vertically centered*/
+	background: url("../images/background.png"); /*the background image*/
+	background-size: cover; /*makes the background image cover the entire site*/
+	color: white; /*default text color for the website*/
+	font-family: helvetica; /*default font for the website*/
+}
+
+#profile_img{
+	border-radius: 50%; /*makes the photo round*/
+	border: 10px solid #fff; /*adds a white border around the photo*/
+	width: 256px; /*default width*/
+	height: 256px; /*default height*/
+}
+
+input {
+	border: 0; /*removes the border around the input box*/
+	padding: 10px; /*how thick the input box is */
+	font-size: 18px; /*the size of the font*/
+}
+
+button {
+	border: 0; /*removes the border around the button*/
+	padding: 10px; /*changes the size of the button*/
+	font-size: 18px; /*changes the size of the button*/
+	background: red; /*the button color*/
+	color: white; /*the color of the text inside the button*/
+	cursor: pointer; /*when hovering, the cursor will be a pointer hand*/
+}
